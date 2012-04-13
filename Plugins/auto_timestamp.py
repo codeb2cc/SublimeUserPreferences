@@ -1,6 +1,6 @@
 # Description: Auto update file modification stamp
 # Author: Codeb Fan <codeb2cc@gmail.com>
-# Last Modified: 2012-04-13 19:17
+# Last Modified: 2012-04-13 20:08
 #
 
 import datetime, re
@@ -8,7 +8,7 @@ import sublime, sublime_plugin
 
 def _replace_stamp(edit, view, limit=10):
 	regexps = [
-		r'(.*)(@lastChange: ).*$',
+		r'(.*)(@lastChange ).*$',
 		r'(.*)(Last Modified: ).*$',
 	]
 
@@ -22,11 +22,11 @@ def _replace_stamp(edit, view, limit=10):
 			break
 
 
-class LastModifiedCommand(sublime_plugin.TextCommand):
+class AutoTimestampCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		_replace_stamp(edit, self.view)
 
-class AddLastModified(sublime_plugin.EventListener):
+class AutoTimestamp(sublime_plugin.EventListener):
 	def on_pre_save(self, view):
 		edit = view.begin_edit()
 

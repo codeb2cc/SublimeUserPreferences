@@ -1,0 +1,18 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/IDLE.tmTheme",
+	"default_line_ending": "unix",
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Consolas",
+	"font_size": 13,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"NoPreview"
+	],
+	"rulers":
+	[
+		80
+	],
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "true"
+}
