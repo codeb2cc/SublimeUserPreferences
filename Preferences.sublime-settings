@@ -1,18 +1,27 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/IDLE.tmTheme",
-	"default_line_ending": "unix",
-	"ensure_newline_at_eof_on_save": true,
-	"font_face": "Consolas",
-	"font_size": 13,
-	"highlight_line": true,
-	"ignored_packages":
-	[
-		"NoPreview"
-	],
-	"rulers":
-	[
-		80
-	],
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true"
+    "color_scheme": "Packages/Color Scheme - Default/IDLE.tmTheme",
+
+    "default_line_ending": "unix",
+
+    "font_face": "Inconsolata",
+ // "font_face": "Consolas",
+    "font_size": 13,
+
+    "highlight_line": true,
+
+    "ignored_packages": [],
+
+    "rulers": [ 80, 120 ],
+    "indent_guide_options": ["draw_active"],
+
+    "translate_tabs_to_spaces": true,
+    "use_tab_stops": true,
+    "detect_indentation": false,
+
+    "trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof_on_save": true,
+
+    "caret_style": "phase",
+
+    "word_wrap": "true"
 }
