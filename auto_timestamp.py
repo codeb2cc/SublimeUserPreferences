@@ -1,6 +1,6 @@
 # Description: Auto update file modification stamp
 # Author: Codeb Fan <codeb2cc@gmail.com>
-# Last Change: 2012-07-26 01:59
+# Last Change: 2012-08-06 16:08
 #
 
 import datetime, re
@@ -8,7 +8,7 @@ import sublime, sublime_plugin
 
 def _replace_stamp(edit, view, limit=10):
     regexps = [
-        r'(.*)(@lastChange ).*$',
+        r'(.*)(@version ).*$',
         r'(.*)(Last Change: ).*$',
     ]
 

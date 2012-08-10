@@ -1,3 +1,6 @@
 [
-	{ "keys": ["ctrl+shift+t"], "command": "auto_timestamp" }
+  {
+    "keys": ["ctrl+shift+t"],
+    "command": "auto_timestamp"
+  }
 ]
