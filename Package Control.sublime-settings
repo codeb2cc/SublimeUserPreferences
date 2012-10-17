@@ -1,32 +1,35 @@
 {
-  "auto_upgrade_last_run": 1344577824,
-  "installed_packages": [
-    "Alignment",
-    "Backbone.js",
-    "BracketHighlighter",
-    "Clipboard History",
-    "CSSLint",
-    "CTags",
-    "Default File Type",
-    "DocBlockr",
-    "FileDiffs",
-    "Git",
-    "HTML Export",
-    "Jinja2",
-    "jQuery",
-    "Nodejs",
-    "Package Control",
-    "Prefixr",
-    "SublimeClosureCompiler",
-    "SublimeJSHint",
-    "Terminal",
-    "TrailingSpaces",
-    "Twitter Bootstrap Snippets",
-    "YUI Compressor",
-    "ZenCoding"
-  ],
-  "repositories": [
-    "https://github.com/codeb2cc/SublimeClosureCompiler",
-    "https://github.com/codeb2cc/SublimeJSHint"
-  ]
+	"auto_upgrade_last_run": 1350437958,
+	"installed_packages":
+	[
+		"Alignment",
+		"Backbone.js",
+		"BracketHighlighter",
+		"Clipboard History",
+		"CSScomb",
+		"CSSLint",
+		"CTags",
+		"Default File Type",
+		"DocBlockr",
+		"FileDiffs",
+		"Git",
+		"HTML Export",
+		"Jinja2",
+		"jQuery",
+		"Package Control",
+		"Prefixr",
+		"SublimeClosureCompiler",
+		"SublimeJSHint",
+		"Tag",
+		"Terminal",
+		"TrailingSpaces",
+		"Twitter Bootstrap Snippets",
+		"YUI Compressor",
+		"ZenCoding"
+	],
+	"repositories":
+	[
+		"https://github.com/codeb2cc/SublimeClosureCompiler",
+		"https://github.com/codeb2cc/SublimeJSHint"
+	]
 }

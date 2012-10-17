@@ -1,4 +1,8 @@
 {
     "color_scheme": "Packages/Color Scheme - Default/Dawn.tmTheme",
-    "font_size": 12
+    "font_size": 12,
+
+    // Alignment
+    "alignment_chars": ["=", ":"]
+
 }
